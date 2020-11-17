@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".ExpenseController">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/emailID"
+        android:textColorHint="#ffff299f"
+        android:hint="EmailID"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/userPassword"
+        android:layout_alignLeft="@+id/userPassword"
+        android:layout_alignStart="@+id/userPassword" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#3385ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:id="@+id/createuser"
+        android:elevation="3dp"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/emailID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_alignRight="@+id/emailID"
+        android:layout_alignEnd="@+id/emailID" />
+
+    <TextView
+        android:text = "Create User"
+        android:fontFamily="cursive"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/createuser"
+        android:layout_alignStart="@+id/createuser"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <EditText
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/userName"
+        android:hint = "User Name"
+        android:ems="10"
+        android:focusable = "true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "#ffff25e6"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/userPassword"
+        android:layout_alignStart="@+id/userPassword" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/userPassword"
+        android:textColorHint="#ffff299f"
+        android:hint="Password"
+        android:layout_marginTop="49dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_below="@+id/userName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

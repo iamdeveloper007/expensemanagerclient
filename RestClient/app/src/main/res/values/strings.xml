@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string-array name="AdminAccessList">
+        <item>Expense</item>
+        <item>Add Expense</item>
+        <item>Logout</item>
+        <item>Create User</item>
+        <item>Calculate Rent</item>
+        <item>Add Common Payable</item>
+        <item>Common Payable</item>
+    </string-array>
+    <string-array name="UserAccessList">
+        <item>Expense</item>
+        <item>Add Expense</item>
+        <item>Logout</item>
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
